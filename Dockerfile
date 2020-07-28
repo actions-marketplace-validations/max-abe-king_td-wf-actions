@@ -5,5 +5,6 @@ FROM szyn/docker-digdag:latest
 # LABEL "repository"="https://github.com/max-abe-king/td-wf-actions"
 # LABEL "maintainer"="Max King <max.king@treasure-data.com>"
 
+RUN docker-compose build --no-cache
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
