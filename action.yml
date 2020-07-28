@@ -1,4 +1,4 @@
-name: 'Github Deploy to Treasure Wofklow'
+name: 'Github Deployment for Treasure Wofklow'
 description: 'Continuous deployment for your project to Treasure Workflow'
 inputs:
   td_wf_endpoint:
